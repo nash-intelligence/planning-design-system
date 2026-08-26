@@ -1,8 +1,0 @@
-{
-  "schema_version": 1,
-  "source_repository": "https://github.com/nash-intelligence/planning",
-  "source_commit": "07f19640354824773916c5a1198e01dad6b2732a",
-  "source_path": "apps/design-system",
-  "seeded_on": "2026-08-26",
-  "ownership": "Design-system source evolves here; product and operational contracts remain governed by the planning repository."
-}
