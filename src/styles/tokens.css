@@ -1,0 +1,68 @@
+:root {
+  color-scheme: dark;
+
+  --nash-ink-950: #07100e;
+  --nash-ink-900: #0b1513;
+  --nash-ink-850: #101c19;
+  --nash-ink-800: #15231f;
+  --nash-ink-700: #243630;
+  --nash-ink-600: #344942;
+  --nash-ink-500: #597068;
+  --nash-ink-400: #83978f;
+  --nash-ink-300: #acbcb6;
+  --nash-ink-200: #d1ddd8;
+  --nash-ink-100: #edf4ef;
+
+  --nash-mint-500: #76e4c4;
+  --nash-mint-400: #98efd6;
+  --nash-mint-200: #c8f8e9;
+  --nash-blue-500: #8ea7ff;
+  --nash-amber-500: #f6b96b;
+  --nash-coral-500: #ff8f78;
+  --nash-violet-500: #c1a7ff;
+
+  --nash-success: #76e4c4;
+  --nash-info: #8ea7ff;
+  --nash-warning: #f6b96b;
+  --nash-danger: #ff8f78;
+
+  --nash-surface-canvas: var(--nash-ink-950);
+  --nash-surface-subtle: var(--nash-ink-900);
+  --nash-surface-raised: var(--nash-ink-850);
+  --nash-surface-overlay: var(--nash-ink-800);
+  --nash-border-subtle: rgba(209, 221, 216, 0.1);
+  --nash-border-default: rgba(209, 221, 216, 0.17);
+  --nash-border-strong: rgba(209, 221, 216, 0.3);
+  --nash-text-primary: var(--nash-ink-100);
+  --nash-text-secondary: var(--nash-ink-300);
+  --nash-text-muted: var(--nash-ink-400);
+  --nash-focus-ring: 0 0 0 3px rgba(118, 228, 196, 0.28);
+
+  --nash-font-sans: Inter, Aptos, 'Segoe UI', ui-sans-serif, system-ui, sans-serif;
+  --nash-font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+  --nash-text-xs: 0.75rem;
+  --nash-text-sm: 0.875rem;
+  --nash-text-md: 1rem;
+  --nash-text-lg: 1.125rem;
+  --nash-text-xl: 1.4rem;
+  --nash-text-2xl: clamp(1.75rem, 3vw, 2.5rem);
+  --nash-line-tight: 1.18;
+  --nash-line-normal: 1.5;
+
+  --nash-space-1: 0.25rem;
+  --nash-space-2: 0.5rem;
+  --nash-space-3: 0.75rem;
+  --nash-space-4: 1rem;
+  --nash-space-5: 1.25rem;
+  --nash-space-6: 1.5rem;
+  --nash-space-8: 2rem;
+  --nash-space-10: 2.5rem;
+  --nash-space-12: 3rem;
+
+  --nash-radius-sm: 0.5rem;
+  --nash-radius-md: 0.75rem;
+  --nash-radius-lg: 1rem;
+  --nash-radius-xl: 1.4rem;
+  --nash-shadow-raised: 0 16px 42px rgba(0, 0, 0, 0.24);
+  --nash-transition-fast: 140ms ease;
+}

@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#storybook-root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--nash-surface-canvas);
+  color: var(--nash-text-primary);
+  font-family: var(--nash-font-sans);
+  font-size: var(--nash-text-md);
+  line-height: var(--nash-line-normal);
+  text-rendering: optimizeLegibility;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: none;
+  box-shadow: var(--nash-focus-ring);
+}
+
+::selection {
+  background: rgba(118, 228, 196, 0.28);
+  color: var(--nash-text-primary);
+}
+
+.nash-story-canvas {
+  min-height: 100vh;
+  padding: clamp(1.25rem, 4vw, 3.5rem);
+  background:
+    radial-gradient(circle at 72% 10%, rgba(118, 228, 196, 0.1), transparent 32rem),
+    radial-gradient(circle at 12% 88%, rgba(142, 167, 255, 0.08), transparent 30rem),
+    var(--nash-surface-canvas);
+}
+
+.nash-story-stack {
+  display: grid;
+  gap: var(--nash-space-6);
+  width: min(72rem, 100%);
+  margin: 0 auto;
+}
+
+.nash-story-heading {
+  display: grid;
+  gap: var(--nash-space-2);
+  max-width: 48rem;
+}
+
+.nash-story-heading h1,
+.nash-story-heading h2,
+.nash-story-heading p {
+  margin: 0;
+}
+
+.nash-story-heading h1,
+.nash-story-heading h2 {
+  font-size: var(--nash-text-2xl);
+  line-height: var(--nash-line-tight);
+  letter-spacing: -0.035em;
+}
+
+.nash-story-heading p {
+  color: var(--nash-text-secondary);
+}
