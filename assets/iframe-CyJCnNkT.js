@@ -1,1 +1,0 @@
-import{t as e}from"./iframe-BreKiB_3.js";e();
