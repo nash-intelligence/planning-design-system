@@ -1,0 +1,1 @@
+import{t as e}from"./iframe-CKTY-0cl.js";e();
